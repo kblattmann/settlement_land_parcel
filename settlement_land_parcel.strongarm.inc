@@ -89,6 +89,13 @@ function settlement_land_parcel_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'ffp_slparcel_field_slparcel_photo';
+  $strongarm->value = 0;
+  $export['ffp_slparcel_field_slparcel_photo'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'language_content_type_slparcel';
   $strongarm->value = '0';
   $export['language_content_type_slparcel'] = $strongarm;
